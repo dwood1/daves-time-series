@@ -9,8 +9,6 @@ def sample_average(input_array):
     return sum(input_array) / (len(input_array)-1)
 
 # VARIANCE
-
-
 def variance(input_array):
     # time: O(n), space: O(n)
     x_bar = average(input_array)
@@ -25,8 +23,6 @@ def sample_variance(input_array):
                            for i in range(n)])
 
 # STANDARD DEVIATION
-
-
 def standard_deviation(input_array):
     # time: O(n), space: O(n)
     avg = average(input_array)
@@ -41,8 +37,6 @@ def sample_standard_deviation(input_array):
                             for i in range(n)]))**(0.5)
 
 # COVARIANCE
-
-
 def covariance(x_array, y_array=[]):
     # time: O(n), space: O(n)
     l_x = len(x_array)
